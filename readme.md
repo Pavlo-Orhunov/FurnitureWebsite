@@ -15,7 +15,7 @@
 - contacts form
 
 **_The result of the work can be viewed at the link:_** ➡️
-[Link to the layout Page](https://pavlo-orhunov.github.io/Home-Services/)
+[Link to the layout Page](https://pavlo-orhunov.github.io/FurnitureWebsite/)
 _(will open in the same window)_
 
 <br>
