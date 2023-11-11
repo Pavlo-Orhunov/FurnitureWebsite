@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture Website</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+  <body>
+    <div id="preloader">
+      <div id="loader-box">
+        <div id="loader"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__container">
+            <div class="header__inner">
+              <div class="header__logo">
+                <img src="./images/header/logo.svg" alt="logo" />
+              </div>
+              <nav class="header__menu menu">
+                <div class="menu__body">
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a href="#" class="menu__link u-hover menu__link--active"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link u-hover">Product</a>
+                      <button type="button" class="menu__btn">
+                        <img src="./images/header/arrow-down.svg" alt="arrow" />
+                      </button>
+                      <ul class="menu__sublist">
+                        <li class="menu__subitem">
+                          <a href="#" class="menu__sublink u-hover">Bed</a>
+                        </li>
+                        <li class="menu__subitem">
+                          <a href="#" class="menu__sublink u-hover">Chair</a>
+                        </li>
+                        <li class="menu__subitem">
+                          <a href="#" class="menu__sublink u-hover">Light</a>
+                        </li>
+                        <li class="menu__subitem">
+                          <a href="#" class="menu__sublink u-hover">Sofa</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link u-hover">About</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link u-hover">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="header__actions actions">
+                <button type="button" class="actions__search">
+                  <img src="./images/header/search.svg" alt="search" />
+                </button>
+                <a href="#" class="actions__login"
+                  ><img src="./images/header/user.svg" alt="login"
+                /></a>
+              </div>
+              <button class="icon-menu" type="button">
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="page__hero hero">
+          <div class="hero__container">
+            <div class="hero__inner">
+              <div class="hero__body">
+                <h1 class="hero__title">Help you to Make modern Funiture</h1>
+                <div class="hero__text">
+                  <p>
+                    We help you to create organize your room to be more cozy,
+                    design by professional interior designer
+                  </p>
+                </div>
+                <a href="#" class="hero__button button">See Our Product</a>
+              </div>
+              <div class="hero__slider slider-hero">
+                <div class="slider-hero__slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="slider-hero__slide swiper-slide">
+                      <img src="./images/hero/slide-1.jpg" alt="living room" />
+                    </div>
+                    <div class="slider-hero__slide swiper-slide">
+                      <img src="./images/hero/slide-2.jpg" alt="living room" />
+                    </div>
+                  </div>
+                  <div class="slider-hero__pagination swiper-pagination"></div>
+                </div>
+                <div class="slider-hero__arrows">
+                  <button
+                    type="button"
+                    class="slider-hero__arrow-prev orange-arrow-prev"
+                  ></button>
+                  <button
+                    type="button"
+                    class="slider-hero__arrow-next orange-arrow-next"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__trusted trusted">
+          <div class="trusted__container">
+            <h2 class="trusted__title">Some of our trusted company</h2>
+            <div class="trusted__companies">
+              <img src="./images/trusted/client-1.svg" alt="client logo" />
+              <img src="./images/trusted/client-2.svg" alt="client logo" />
+              <img src="./images/trusted/client-3.svg" alt="client logo" />
+              <img src="./images/trusted/client-4.svg" alt="client logo" />
+            </div>
+          </div>
+        </section>
+        <section class="page__interiors interiors">
+          <div class="interiors__container">
+            <div class="interiors__slider slider-interiors">
+              <h2 class="slider-interiors__title title-h2">
+                Some of the interiors that we provide for you
+              </h2>
+              <div class="slider-interiors__outer">
+                <div class="slider-interiors__slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="slider-interiors__slide swiper-slide">
+                      <img
+                        src="./images/interiors/image-1.jpg"
+                        alt="interior"
+                      />
+                    </div>
+                    <div class="slider-interiors__slide swiper-slide">
+                      <img
+                        src="./images/interiors/image-2.jpg"
+                        alt="interior"
+                      />
+                    </div>
+                    <div class="slider-interiors__slide swiper-slide">
+                      <img
+                        src="./images/interiors/image-3.jpg"
+                        alt="interior"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-interiors__arrows">
+                  <button
+                    type="button"
+                    class="slider-interiors__arrow-prev orange-arrow-prev"
+                  ></button>
+                  <button
+                    type="button"
+                    class="slider-interiors__arrow-next orange-arrow-next"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="interiors__rooms">
+              <div class="interiors__room room-interiors">
+                <a href="#" class="room-interiors__image gray-hover">
+                  <img src="./images/interiors/img-01.jpg" alt="room" />
+                </a>
+                <div class="room-interiors__content">
+                  <h3 class="room-interiors__title">Living Room</h3>
+                  <div class="room-interiors__text">
+                    <p>
+                      As one of the most-frequented spots in the home a living
+                      room sets the tone for the rest of the house.
+                    </p>
+                  </div>
+                  <a href="#" class="room-interiors__more accent-hover"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="interiors__room room-interiors">
+                <a href="#" class="room-interiors__image gray-hover">
+                  <img src="./images/interiors/img-02.jpg" alt="room" />
+                </a>
+                <div class="room-interiors__content">
+                  <h3 class="room-interiors__title">Bedroom</h3>
+                  <div class="room-interiors__text">
+                    <p>
+                      Unleash your creativity to make not only comfortable but
+                      also a pleasant place to start and end your day.
+                    </p>
+                  </div>
+                  <a href="#" class="room-interiors__more accent-hover"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="interiors__room room-interiors">
+                <a href="#" class="room-interiors__image gray-hover">
+                  <img src="./images/interiors/img-03.jpg" alt="room" />
+                </a>
+                <div class="room-interiors__content">
+                  <h3 class="room-interiors__title">Office</h3>
+                  <div class="room-interiors__text">
+                    <p>
+                      The home office design ideas featured here are maximized
+                      for efficiency, optimized for space, and improvised for
+                      comfort by Spacejoy designers.
+                    </p>
+                  </div>
+                  <a href="#" class="room-interiors__more accent-hover"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__products products">
+          <div class="products__container">
+            <div class="products__header">
+              <h2 class="products__title title-h2">Products</h2>
+              <a href="#" class="products__button accent-hover">See All</a>
+            </div>
+            <div class="products__tabs tabs-products">
+              <nav class="tab-navigation">
+                <button
+                  data-tab-type=""
+                  type="button"
+                  class="tab-button _active accent-hover"
+                >
+                  All
+                </button>
+                <button
+                  data-tab-type="Bed"
+                  type="button"
+                  class="tab-button accent-hover"
+                >
+                  Bed
+                </button>
+                <button
+                  data-tab-type="Chair"
+                  type="button"
+                  class="tab-button accent-hover"
+                >
+                  Chair
+                </button>
+                <button
+                  data-tab-type="Light"
+                  type="button"
+                  class="tab-button accent-hover"
+                >
+                  Light
+                </button>
+                <button
+                  data-tab-type="Sofa"
+                  type="button"
+                  class="tab-button accent-hover"
+                >
+                  Sofa
+                </button>
+              </nav>
+              <div class="tab-items">
+                <div data-tab-type="Sofa" class="tab-item">
+                  <article class="item-card">
+                    <div class="item-card__content">
+                      <div class="item-card__label">Sofa</div>
+                      <a href="#" class="item-card__title-link accent-hover">
+                        <h3>Glossy Cube</h3>
+                      </a>
+                    </div>
+                    <div class="item-card__cart">
+                      <a href="#">
+                        <img src="images/products/cart.png" alt="cart" />
+                      </a>
+                    </div>
+                    <a href="#" class="item-card__image-link gray-hover">
+                      <img src="images/products/img-1.png" alt="image" />
+                    </a>
+                    <div class="item-card__price">Rp 400.000</div>
+                  </article>
+                </div>
+                <div data-tab-type="Light" class="tab-item">
+                  <article class="item-card">
+                    <div class="item-card__content">
+                      <div class="item-card__label">Light</div>
+                      <a href="#" class="item-card__title-link accent-hover">
+                        <h3>Floor Monolamp</h3>
+                      </a>
+                    </div>
+                    <div class="item-card__cart">
+                      <a href="#">
+                        <img src="images/products/cart.png" alt="cart" />
+                      </a>
+                    </div>
+                    <a href="#" class="item-card__image-link gray-hover">
+                      <img src="images/products/img-2.png" alt="image" />
+                    </a>
+                    <div class="item-card__price">Rp 210.000</div>
+                  </article>
+                </div>
+                <div data-tab-type="Chair" class="tab-item">
+                  <article class="item-card">
+                    <div class="item-card__content">
+                      <div class="item-card__label">Chair</div>
+                      <a href="#" class="item-card__title-link accent-hover">
+                        <h3>Vintage Chair</h3>
+                      </a>
+                    </div>
+                    <div class="item-card__cart">
+                      <a href="#">
+                        <img src="images/products/cart.png" alt="cart" />
+                      </a>
+                    </div>
+                    <a href="#" class="item-card__image-link gray-hover">
+                      <img src="images/products/img-3.png" alt="image" />
+                    </a>
+                    <div class="item-card__price">Rp 410.000</div>
+                  </article>
+                </div>
+                <div data-tab-type="Bed" class="tab-item">
+                  <article class="item-card">
+                    <div class="item-card__content">
+                      <div class="item-card__label">Bed</div>
+                      <a href="#" class="item-card__title-link accent-hover">
+                        <h3>Comfort King Bed</h3>
+                      </a>
+                    </div>
+                    <div class="item-card__cart">
+                      <a href="#">
+                        <img src="images/products/cart.png" alt="cart" />
+                      </a>
+                    </div>
+                    <a href="#" class="item-card__image-link gray-hover">
+                      <img src="images/products/img-4.png" alt="image" />
+                    </a>
+                    <div class="item-card__price">Rp 410.000</div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__subscribe subscribe-footer">
+            <div class="subscribe-footer__content">
+              <h2 class="subscribe-footer__title title-h2 title-light-upper">
+                Subscribe to get the last news about us
+              </h2>
+              <div class="subscribe-footer__text">
+                <p>
+                  We recommended you to subscribe to our newspaper, enter you
+                  email to get our daily update about us
+                </p>
+              </div>
+            </div>
+            <form class="subscribe-footer__form form-footer">
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                class="form-footer__input"
+                placeholder="Enter you email address"
+              />
+              <button type="submit" class="form-footer__button button">
+                Subscribe
+              </button>
+            </form>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copyright">
+              <div class="footer__copyright-heading">PT. ANDARA PANCA JAYA</div>
+              <div class="footer__copyright-copy">
+                © 2020. All rights reserved
+              </div>
+            </div>
+            <nav class="footer__menu menu-footer">
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link u-hover u-hover-light"
+                    >About Us
+                  </a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link u-hover u-hover-light"
+                    >Partnership</a
+                  >
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link u-hover u-hover-light"
+                    >Privacy Police</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
